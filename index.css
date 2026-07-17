@@ -7,7 +7,9 @@
 body{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-
+body a{
+     text-decoration: none;
+}
 nav{
     background:#7a5c81;
     height:65px;
