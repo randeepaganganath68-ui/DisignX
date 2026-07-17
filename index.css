@@ -7,9 +7,7 @@
 body{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-body a{
-     text-decoration: none;
-}
+
 nav{
     background:#7a5c81;
     height:65px;
@@ -76,7 +74,7 @@ nav{
     .hero-banner{
     background:
         linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
-        url("https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL3Jhd3BpeGVsb2ZmaWNlNl9hX3dlYnNpdGVfZmFzaGlvbl9ob21lcGFnZV9wdXRfb25fd2hpdGVfYmFja2dyb281[...]
+        url("https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL3Jhd3BpeGVsb2ZmaWNlNl9hX3dlYnNpdGVfZmFzaGlvbl9ob21lcGFnZV9wdXRfb25fd2hpdGVfYmFja2dyb185YmNkMmZkNi1jMzYwLTQ2YWUtYmUzZS04NzczNGVkMWViNDRfMS5qcGc.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -177,6 +175,9 @@ nav{
 .category-card:hover{
     transform: translateY(-8px);
     box-shadow: 0 12px 24px rgba(122,92,129,0.2);
+}
+a{
+    text-decoration: none;
 }
 .category-card:hover i{
     background-color: cadetblue;
@@ -325,7 +326,7 @@ nav{
 
 .footer-col ul li a:hover{
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .footer-newsletter p{
